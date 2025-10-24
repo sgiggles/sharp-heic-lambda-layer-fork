@@ -55,4 +55,4 @@ Outputs:
     Value: !Ref SharpHEICLayer
     Description: ARN of the Sharp HEIC Lambda Layer
     Export:
-      Name: SharpHEICLayerArn
+      Name: !Sub "${LayerName}LayerArn"
